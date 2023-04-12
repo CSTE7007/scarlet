@@ -1,0 +1,526 @@
+(base) user@saqib-HP-Pro-3340-MT:~/Desktop/12042023/ForkingScarlet/scarlet$ bash code/scarlet.sh data/CRC2/CRC2.csv data/CRC2/CRC2-L.csv data/CRC2/CRC2output12042023ALL ALL 
+{(3, 2): ['FHIT-chr3-60412480', 'TOX-chr8-59851979', 'PTPRD-chr9-10074741'], (1, 3): ['FHIT-chr3-60412480', 'LINGO2-chr9-29178757', 'LRP1B-chr2-141609298', 'LINGO2-chr9-29117698', 'STRN-chr2-37105068', 'NR3C2-chr4-149357051', 'CIITA-chr16-11002009', 'LINGO2-chr9-28064983', 'LINGO2-chr9-28778389', 'LINGO2-chr9-29123273', 'PTPRD-chr9-10074741', 'NR4A3-chr9-102595561'], (0, 1): ['']}
+SIGMA
+  ALK-chr2-29416591 APC-chr5-112164646 APC-chr5-112175328  ... TOX-chr8-59851979 TP53-chr17-7577548 TSHZ3-chr19-31768568
+0             Mixed              Mixed             Absent  ...             Mixed              Mixed               Absent
+1            Absent            Present              Mixed  ...           Present            Present               Absent
+2            Absent            Present            Present  ...           Present            Present               Absent
+3            Absent            Present            Present  ...           Present            Present                Mixed
+
+[4 rows x 36 columns]
+{(3, 2): ['FHIT-chr3-60412480', 'TOX-chr8-59851979', 'PTPRD-chr9-10074741'], (1, 3): ['FHIT-chr3-60412480', 'LINGO2-chr9-29178757', 'LRP1B-chr2-141609298', 'LINGO2-chr9-29117698', 'STRN-chr2-37105068', 'NR3C2-chr4-149357051', 'CIITA-chr16-11002009', 'LINGO2-chr9-28064983', 'LINGO2-chr9-28778389', 'LINGO2-chr9-29123273', 'PTPRD-chr9-10074741', 'NR4A3-chr9-102595561'], (0, 1): ['']}
+[3, 2] ['FHIT-chr3-60412480', 'TOX-chr8-59851979', 'PTPRD-chr9-10074741']
+child status {'ALK-chr2-29416591': 'Absent', 'APC-chr5-112164646': 'Present', 'APC-chr5-112175328': 'Present', 'ATP7B-chr13-52534322': 'Present', 'ATR-chr3-142269072': 'Absent', 'CDK4-chr12-58144548': 'Present', 'CHN1-chr2-175779934': 'Present', 'CIITA-chr16-11002009': 'Absent', 'EPHB6-chr7-142566125': 'Absent', 'F8-chrX-154157378': 'Present', 'FHIT-chr3-60412480': 'Absent', 'FUS-chr16-31193877': 'Present', 'HELZ-chr17-65119071': 'Absent', 'IL21R-chr16-27448836': 'Present', 'IL7R-chr5-35876645': 'Present', 'LAMB4-chr7-107732769': 'Mixed', 'LINGO2-chr9-28064983': 'Mixed', 'LINGO2-chr9-28778389': 'Present', 'LINGO2-chr9-29117698': 'Present', 'LINGO2-chr9-29123273': 'Present', 'LINGO2-chr9-29178757': 'Absent', 'LRP1B-chr2-141609298': 'Absent', 'MN1-chr22-28193785': 'Present', 'MYH11-chr16-15917267': 'Present', 'NR3C2-chr4-149357051': 'Absent', 'NR4A3-chr9-102595561': 'Absent', 'NRAS-chr1-115258747': 'Present', 'PIK3CG-chr7-106508397': 'Mixed', 'PRKCB-chr16-24230186': 'Absent', 'PTPRD-chr9-10074741': 'Present', 'SPEN-chr1-16202934': 'Absent', 'SPEN-chr1-16258997': 'Mixed', 'STRN-chr2-37105068': 'Present', 'TOX-chr8-59851979': 'Present', 'TP53-chr17-7577548': 'Present', 'TSHZ3-chr19-31768568': 'Absent'}
+parent status {'ALK-chr2-29416591': 'Absent', 'APC-chr5-112164646': 'Present', 'APC-chr5-112175328': 'Present', 'ATP7B-chr13-52534322': 'Present', 'ATR-chr3-142269072': 'Absent', 'CDK4-chr12-58144548': 'Present', 'CHN1-chr2-175779934': 'Present', 'CIITA-chr16-11002009': 'Absent', 'EPHB6-chr7-142566125': 'Absent', 'F8-chrX-154157378': 'Mixed', 'FHIT-chr3-60412480': 'Present', 'FUS-chr16-31193877': 'Mixed', 'HELZ-chr17-65119071': 'Mixed', 'IL21R-chr16-27448836': 'Present', 'IL7R-chr5-35876645': 'Mixed', 'LAMB4-chr7-107732769': 'Absent', 'LINGO2-chr9-28064983': 'Absent', 'LINGO2-chr9-28778389': 'Mixed', 'LINGO2-chr9-29117698': 'Present', 'LINGO2-chr9-29123273': 'Mixed', 'LINGO2-chr9-29178757': 'Absent', 'LRP1B-chr2-141609298': 'Absent', 'MN1-chr22-28193785': 'Present', 'MYH11-chr16-15917267': 'Present', 'NR3C2-chr4-149357051': 'Absent', 'NR4A3-chr9-102595561': 'Mixed', 'NRAS-chr1-115258747': 'Present', 'PIK3CG-chr7-106508397': 'Absent', 'PRKCB-chr16-24230186': 'Mixed', 'PTPRD-chr9-10074741': 'Present', 'SPEN-chr1-16202934': 'Absent', 'SPEN-chr1-16258997': 'Absent', 'STRN-chr2-37105068': 'Present', 'TOX-chr8-59851979': 'Present', 'TP53-chr17-7577548': 'Present', 'TSHZ3-chr19-31768568': 'Mixed'}
+[0, 1, 1, 1, 0, 1, 1, 0, 0, 1, '?', 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
+[1, 3] ['FHIT-chr3-60412480', 'LINGO2-chr9-29178757', 'LRP1B-chr2-141609298', 'LINGO2-chr9-29117698', 'STRN-chr2-37105068', 'NR3C2-chr4-149357051', 'CIITA-chr16-11002009', 'LINGO2-chr9-28064983', 'LINGO2-chr9-28778389', 'LINGO2-chr9-29123273', 'PTPRD-chr9-10074741', 'NR4A3-chr9-102595561']
+child status {'ALK-chr2-29416591': 'Absent', 'APC-chr5-112164646': 'Present', 'APC-chr5-112175328': 'Present', 'ATP7B-chr13-52534322': 'Present', 'ATR-chr3-142269072': 'Absent', 'CDK4-chr12-58144548': 'Present', 'CHN1-chr2-175779934': 'Present', 'CIITA-chr16-11002009': 'Absent', 'EPHB6-chr7-142566125': 'Absent', 'F8-chrX-154157378': 'Mixed', 'FHIT-chr3-60412480': 'Present', 'FUS-chr16-31193877': 'Mixed', 'HELZ-chr17-65119071': 'Mixed', 'IL21R-chr16-27448836': 'Present', 'IL7R-chr5-35876645': 'Mixed', 'LAMB4-chr7-107732769': 'Absent', 'LINGO2-chr9-28064983': 'Absent', 'LINGO2-chr9-28778389': 'Mixed', 'LINGO2-chr9-29117698': 'Present', 'LINGO2-chr9-29123273': 'Mixed', 'LINGO2-chr9-29178757': 'Absent', 'LRP1B-chr2-141609298': 'Absent', 'MN1-chr22-28193785': 'Present', 'MYH11-chr16-15917267': 'Present', 'NR3C2-chr4-149357051': 'Absent', 'NR4A3-chr9-102595561': 'Mixed', 'NRAS-chr1-115258747': 'Present', 'PIK3CG-chr7-106508397': 'Absent', 'PRKCB-chr16-24230186': 'Mixed', 'PTPRD-chr9-10074741': 'Present', 'SPEN-chr1-16202934': 'Absent', 'SPEN-chr1-16258997': 'Absent', 'STRN-chr2-37105068': 'Present', 'TOX-chr8-59851979': 'Present', 'TP53-chr17-7577548': 'Present', 'TSHZ3-chr19-31768568': 'Mixed'}
+parent status {'ALK-chr2-29416591': 'Absent', 'APC-chr5-112164646': 'Present', 'APC-chr5-112175328': 'Mixed', 'ATP7B-chr13-52534322': 'Mixed', 'ATR-chr3-142269072': 'Absent', 'CDK4-chr12-58144548': 'Present', 'CHN1-chr2-175779934': 'Mixed', 'CIITA-chr16-11002009': 'Absent', 'EPHB6-chr7-142566125': 'Absent', 'F8-chrX-154157378': 'Absent', 'FHIT-chr3-60412480': 'Mixed', 'FUS-chr16-31193877': 'Absent', 'HELZ-chr17-65119071': 'Absent', 'IL21R-chr16-27448836': 'Present', 'IL7R-chr5-35876645': 'Absent', 'LAMB4-chr7-107732769': 'Absent', 'LINGO2-chr9-28064983': 'Absent', 'LINGO2-chr9-28778389': 'Absent', 'LINGO2-chr9-29117698': 'Mixed', 'LINGO2-chr9-29123273': 'Absent', 'LINGO2-chr9-29178757': 'Mixed', 'LRP1B-chr2-141609298': 'Mixed', 'MN1-chr22-28193785': 'Mixed', 'MYH11-chr16-15917267': 'Mixed', 'NR3C2-chr4-149357051': 'Absent', 'NR4A3-chr9-102595561': 'Absent', 'NRAS-chr1-115258747': 'Present', 'PIK3CG-chr7-106508397': 'Absent', 'PRKCB-chr16-24230186': 'Absent', 'PTPRD-chr9-10074741': 'Mixed', 'SPEN-chr1-16202934': 'Absent', 'SPEN-chr1-16258997': 'Absent', 'STRN-chr2-37105068': 'Present', 'TOX-chr8-59851979': 'Present', 'TP53-chr17-7577548': 'Present', 'TSHZ3-chr19-31768568': 'Absent'}
+[0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, '?', '?', 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0]
+[0, 1] ['']
+child status {'ALK-chr2-29416591': 'Absent', 'APC-chr5-112164646': 'Present', 'APC-chr5-112175328': 'Mixed', 'ATP7B-chr13-52534322': 'Mixed', 'ATR-chr3-142269072': 'Absent', 'CDK4-chr12-58144548': 'Present', 'CHN1-chr2-175779934': 'Mixed', 'CIITA-chr16-11002009': 'Absent', 'EPHB6-chr7-142566125': 'Absent', 'F8-chrX-154157378': 'Absent', 'FHIT-chr3-60412480': 'Mixed', 'FUS-chr16-31193877': 'Absent', 'HELZ-chr17-65119071': 'Absent', 'IL21R-chr16-27448836': 'Present', 'IL7R-chr5-35876645': 'Absent', 'LAMB4-chr7-107732769': 'Absent', 'LINGO2-chr9-28064983': 'Absent', 'LINGO2-chr9-28778389': 'Absent', 'LINGO2-chr9-29117698': 'Mixed', 'LINGO2-chr9-29123273': 'Absent', 'LINGO2-chr9-29178757': 'Mixed', 'LRP1B-chr2-141609298': 'Mixed', 'MN1-chr22-28193785': 'Mixed', 'MYH11-chr16-15917267': 'Mixed', 'NR3C2-chr4-149357051': 'Absent', 'NR4A3-chr9-102595561': 'Absent', 'NRAS-chr1-115258747': 'Present', 'PIK3CG-chr7-106508397': 'Absent', 'PRKCB-chr16-24230186': 'Absent', 'PTPRD-chr9-10074741': 'Mixed', 'SPEN-chr1-16202934': 'Absent', 'SPEN-chr1-16258997': 'Absent', 'STRN-chr2-37105068': 'Present', 'TOX-chr8-59851979': 'Present', 'TP53-chr17-7577548': 'Present', 'TSHZ3-chr19-31768568': 'Absent'}
+parent status {'ALK-chr2-29416591': 'Mixed', 'APC-chr5-112164646': 'Mixed', 'APC-chr5-112175328': 'Absent', 'ATP7B-chr13-52534322': 'Absent', 'ATR-chr3-142269072': 'Mixed', 'CDK4-chr12-58144548': 'Mixed', 'CHN1-chr2-175779934': 'Absent', 'CIITA-chr16-11002009': 'Mixed', 'EPHB6-chr7-142566125': 'Mixed', 'F8-chrX-154157378': 'Absent', 'FHIT-chr3-60412480': 'Absent', 'FUS-chr16-31193877': 'Absent', 'HELZ-chr17-65119071': 'Absent', 'IL21R-chr16-27448836': 'Mixed', 'IL7R-chr5-35876645': 'Absent', 'LAMB4-chr7-107732769': 'Absent', 'LINGO2-chr9-28064983': 'Absent', 'LINGO2-chr9-28778389': 'Absent', 'LINGO2-chr9-29117698': 'Absent', 'LINGO2-chr9-29123273': 'Absent', 'LINGO2-chr9-29178757': 'Absent', 'LRP1B-chr2-141609298': 'Absent', 'MN1-chr22-28193785': 'Absent', 'MYH11-chr16-15917267': 'Absent', 'NR3C2-chr4-149357051': 'Mixed', 'NR4A3-chr9-102595561': 'Absent', 'NRAS-chr1-115258747': 'Mixed', 'PIK3CG-chr7-106508397': 'Absent', 'PRKCB-chr16-24230186': 'Absent', 'PTPRD-chr9-10074741': 'Absent', 'SPEN-chr1-16202934': 'Mixed', 'SPEN-chr1-16258997': 'Absent', 'STRN-chr2-37105068': 'Mixed', 'TOX-chr8-59851979': 'Mixed', 'TP53-chr17-7577548': 'Mixed', 'TSHZ3-chr19-31768568': 'Absent'}
+[0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0]
+MIXED MUTS FOR STATE 0: ['ALK-chr2-29416591', 'APC-chr5-112164646', 'ATR-chr3-142269072', 'CDK4-chr12-58144548', 'CIITA-chr16-11002009', 'EPHB6-chr7-142566125', 'IL21R-chr16-27448836', 'NR3C2-chr4-149357051', 'NRAS-chr1-115258747', 'SPEN-chr1-16202934', 'STRN-chr2-37105068', 'TOX-chr8-59851979', 'TP53-chr17-7577548']
+----------------- DESCS [(1, {'ALK-chr2-29416591': 0, 'APC-chr5-112164646': 1, 'APC-chr5-112175328': 0, 'ATP7B-chr13-52534322': 0, 'ATR-chr3-142269072': 0, 'CDK4-chr12-58144548': 1, 'CHN1-chr2-175779934': 0, 'CIITA-chr16-11002009': 0, 'EPHB6-chr7-142566125': 0, 'F8-chrX-154157378': 0, 'FHIT-chr3-60412480': 0, 'FUS-chr16-31193877': 0, 'HELZ-chr17-65119071': 0, 'IL21R-chr16-27448836': 1, 'IL7R-chr5-35876645': 0, 'LAMB4-chr7-107732769': 0, 'LINGO2-chr9-28064983': 0, 'LINGO2-chr9-28778389': 0, 'LINGO2-chr9-29117698': 0, 'LINGO2-chr9-29123273': 0, 'LINGO2-chr9-29178757': 0, 'LRP1B-chr2-141609298': 0, 'MN1-chr22-28193785': 0, 'MYH11-chr16-15917267': 0, 'NR3C2-chr4-149357051': 0, 'NR4A3-chr9-102595561': 0, 'NRAS-chr1-115258747': 1, 'PIK3CG-chr7-106508397': 0, 'PRKCB-chr16-24230186': 0, 'PTPRD-chr9-10074741': 0, 'SPEN-chr1-16202934': 0, 'SPEN-chr1-16258997': 0, 'STRN-chr2-37105068': 1, 'TOX-chr8-59851979': 1, 'TP53-chr17-7577548': 1, 'TSHZ3-chr19-31768568': 0})]
+1
+0
+1
+0
+1
+0
+0
+1
+0
+1
+0
+1
+1
+1
+/home/user/Desktop/12042023/ForkingScarlet/scarlet/code/optimize_mutation_matrix.py:152: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  C = C.append(d)
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-01-24
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz, instruction set [SSE2|AVX]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 113568 rows, 30121 columns and 283608 nonzeros
+Model fingerprint: 0x2cd9ff32
+Variable types: 0 continuous, 30121 integer (30121 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-02, 1e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.76s
+Presolved: 113568 rows, 30121 columns, 283608 nonzeros
+Variable types: 0 continuous, 30121 integer (30121 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing first log only...
+
+Root relaxation presolved: 113568 rows, 30121 columns, 283608 nonzeros
+
+Concurrent spin time: 0.47s
+
+Solved with dual simplex (primal model)
+
+Root relaxation: objective 9.482193e+05, 2085 iterations, 1.29 seconds (0.37 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 948219.280    0   93   -0.00000 948219.280      -     -    2s
+H    0     0                    948214.61041 948219.280  0.00%     -    3s
+
+Explored 1 nodes (3181 simplex iterations) in 3.11 seconds (1.74 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 948215 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.482146104100e+05, best bound 9.482192796811e+05, gap 0.0005%
+Optimized B --------------------
+        ALK-chr2-29416591  APC-chr5-112164646  ATR-chr3-142269072  ...  STRN-chr2-37105068  TOX-chr8-59851979  TP53-chr17-7577548
+MA-25                -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+MA-26                -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+MD-10                -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+MD-11                -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+MD-12                -0.0                 1.0                -0.0  ...                 1.0                1.0                 1.0
+...                   ...                 ...                 ...  ...                 ...                ...                 ...
+PDD-93               -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+PDD-94               -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+PDD-95               -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+PDD-96               -0.0                -0.0                -0.0  ...                -0.0               -0.0                -0.0
+ANC:1                -0.0                 1.0                -0.0  ...                 1.0                1.0                 1.0
+
+[121 rows x 13 columns]
+C COLUMNS Index(['ALK-chr2-29416591', 'APC-chr5-112164646', 'ATR-chr3-142269072',
+       'CDK4-chr12-58144548', 'CIITA-chr16-11002009', 'EPHB6-chr7-142566125',
+       'IL21R-chr16-27448836', 'NR3C2-chr4-149357051', 'NRAS-chr1-115258747',
+       'SPEN-chr1-16202934', 'STRN-chr2-37105068', 'TOX-chr8-59851979',
+       'TP53-chr17-7577548'],
+      dtype='object')
+        ALK-chr2-29416591  APC-chr5-112164646  ATR-chr3-142269072  ...  STRN-chr2-37105068  TOX-chr8-59851979  TP53-chr17-7577548
+MA-25           -4.124622           -3.334011           -5.099218  ...           -1.096611          -4.889348           -2.030398
+MA-26           -5.885461           -4.884193           -2.926430  ...           -2.626051          -5.893217           -6.254969
+MD-10           -3.434720           -5.651349           -5.894881  ...           -3.696649          -2.976723           -5.707105
+MD-11           -5.904559           -5.581013           -5.710311  ...           -6.225758          -5.759002           -4.675731
+MD-12           -0.962755           -5.290898           -5.542613  ...           33.705531          34.800864          135.862185
+...                   ...                 ...                 ...  ...                 ...                ...                 ...
+PDD-93          -5.053653           -3.194864           -5.502873  ...           -3.269824          -5.792211           -3.970324
+PDD-94          -3.696649           -3.548501           -6.287996  ...           -2.817205          -5.564230           -1.939907
+PDD-95          -4.607443           -4.019508           -1.939907  ...           -2.460319          -5.704118           -4.623142
+PDD-96          -5.874253           -3.493344           -3.762640  ...           -4.050844          -4.081104           -1.939907
+ANC:1      -100000.000000       100000.000000      -100000.000000  ...       100000.000000      100000.000000       100000.000000
+
+[121 rows x 13 columns]
+MIXED MUTS FOR STATE 3: ['F8-chrX-154157378', 'FUS-chr16-31193877', 'HELZ-chr17-65119071', 'IL7R-chr5-35876645', 'LINGO2-chr9-28778389', 'LINGO2-chr9-29123273', 'NR4A3-chr9-102595561', 'PRKCB-chr16-24230186', 'TSHZ3-chr19-31768568']
+----------------- DESCS [(2, {'ALK-chr2-29416591': 0, 'APC-chr5-112164646': 1, 'APC-chr5-112175328': 1, 'ATP7B-chr13-52534322': 1, 'ATR-chr3-142269072': 0, 'CDK4-chr12-58144548': 1, 'CHN1-chr2-175779934': 1, 'CIITA-chr16-11002009': 0, 'EPHB6-chr7-142566125': 0, 'F8-chrX-154157378': 1, 'FHIT-chr3-60412480': '?', 'FUS-chr16-31193877': 1, 'HELZ-chr17-65119071': 0, 'IL21R-chr16-27448836': 1, 'IL7R-chr5-35876645': 1, 'LAMB4-chr7-107732769': 0, 'LINGO2-chr9-28064983': 0, 'LINGO2-chr9-28778389': 1, 'LINGO2-chr9-29117698': 1, 'LINGO2-chr9-29123273': 1, 'LINGO2-chr9-29178757': 0, 'LRP1B-chr2-141609298': 0, 'MN1-chr22-28193785': 1, 'MYH11-chr16-15917267': 1, 'NR3C2-chr4-149357051': 0, 'NR4A3-chr9-102595561': 0, 'NRAS-chr1-115258747': 1, 'PIK3CG-chr7-106508397': 0, 'PRKCB-chr16-24230186': 0, 'PTPRD-chr9-10074741': 1, 'SPEN-chr1-16202934': 0, 'SPEN-chr1-16258997': 0, 'STRN-chr2-37105068': 1, 'TOX-chr8-59851979': 1, 'TP53-chr17-7577548': 1, 'TSHZ3-chr19-31768568': 0})]
+2
+1
+1
+0
+1
+1
+1
+0
+0
+0
+/home/user/Desktop/12042023/ForkingScarlet/scarlet/code/optimize_mutation_matrix.py:152: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  C = C.append(d)
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz, instruction set [SSE2|AVX]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 10512 rows, 2916 columns and 26136 nonzeros
+Model fingerprint: 0x0b960d0d
+Variable types: 0 continuous, 2916 integer (2916 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [8e-02, 1e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.05s
+Presolved: 10512 rows, 2916 columns, 26136 nonzeros
+Variable types: 0 continuous, 2916 integer (2916 binary)
+
+Root relaxation: objective 5.307667e+05, 1367 iterations, 0.03 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    530766.69154 530766.692  0.00%     -    0s
+
+Explored 1 nodes (1367 simplex iterations) in 0.10 seconds (0.07 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 530767 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.307666915422e+05, best bound 5.307666915422e+05, gap 0.0000%
+Optimized B --------------------
+       F8-chrX-154157378  FUS-chr16-31193877  ...  PRKCB-chr16-24230186  TSHZ3-chr19-31768568
+MA-27                0.0                 1.0  ...                   1.0                   1.0
+MA-30                0.0                 1.0  ...                   1.0                   1.0
+MA-31                0.0                 1.0  ...                   0.0                   1.0
+MA-32                0.0                 1.0  ...                   0.0                   1.0
+MA-34                0.0                 1.0  ...                   0.0                   1.0
+MA-36                0.0                 1.0  ...                   1.0                   1.0
+MA-38                0.0                 1.0  ...                   1.0                   1.0
+MA-39               -0.0                 1.0  ...                   0.0                   1.0
+MA-41                0.0                 1.0  ...                   1.0                   1.0
+MA-42                0.0                 1.0  ...                   0.0                   1.0
+MA-43                0.0                 1.0  ...                   1.0                   1.0
+MA-44               -0.0                 1.0  ...                   0.0                   1.0
+MA-46                0.0                 1.0  ...                   1.0                   1.0
+MA-47               -0.0                 1.0  ...                  -0.0                  -0.0
+MA-48               -0.0                 1.0  ...                   0.0                   1.0
+MA-84                0.0                 1.0  ...                   1.0                   1.0
+MA-87               -0.0                 1.0  ...                   1.0                   1.0
+MA-88               -0.0                 1.0  ...                  -0.0                  -0.0
+MA-89               -0.0                 1.0  ...                   1.0                   1.0
+MA-90               -0.0                 1.0  ...                  -0.0                   0.0
+MA-92               -0.0                 1.0  ...                  -0.0                  -0.0
+MA-93               -0.0                 1.0  ...                   1.0                   1.0
+MA-95               -0.0                 1.0  ...                   0.0                  -0.0
+ANC:2                1.0                 1.0  ...                  -0.0                  -0.0
+
+[24 rows x 9 columns]
+C COLUMNS Index(['F8-chrX-154157378', 'FUS-chr16-31193877', 'HELZ-chr17-65119071',
+       'IL7R-chr5-35876645', 'LINGO2-chr9-28778389', 'LINGO2-chr9-29123273',
+       'NR4A3-chr9-102595561', 'PRKCB-chr16-24230186', 'TSHZ3-chr19-31768568'],
+      dtype='object')
+       F8-chrX-154157378  FUS-chr16-31193877  ...  PRKCB-chr16-24230186  TSHZ3-chr19-31768568
+MA-27          12.514413           -2.473901  ...             36.340312             13.149149
+MA-30          -4.409346           -4.358609  ...            119.546315             15.391038
+MA-31          -6.230253          627.545216  ...             -5.863309             71.366355
+MA-32          15.072234           -4.855872  ...             -4.205631            300.201379
+MA-34          15.092478           74.494408  ...             -3.900218             10.597245
+MA-36          -3.625543          451.597008  ...             87.388460           5147.835879
+MA-38          -5.901899            3.631187  ...             30.224499            328.213306
+MA-39          -5.883440           10.416314  ...             -5.091168             -1.605436
+MA-41          -5.163789           98.011528  ...            286.510207            231.667233
+MA-42          -5.769441          474.074387  ...             -5.212303             43.726950
+MA-43          -0.692147          756.822138  ...            598.289153            776.207513
+MA-44          -4.591426         2578.325134  ...             -5.756514             -4.530593
+MA-46          -2.926430          718.353557  ...            337.534143              4.849872
+MA-47          -4.668432          126.397370  ...             -5.185061             -4.379865
+MA-48          -5.130435          216.515210  ...             -4.898303              6.163164
+MA-84          -5.680096           -2.387890  ...            545.318913              9.165552
+MA-87          -3.305191          261.127411  ...           1708.702268             -4.842809
+MA-88          -2.873363           -0.249458  ...             -5.198837             -2.072438
+MA-89          -5.894585           25.924308  ...           1873.280968             -2.519933
+MA-90          -5.278304          105.928837  ...             -5.045016             -1.939907
+MA-92          -4.515070           -3.305191  ...             -3.862998             -4.814757
+MA-93          -4.541339           64.249441  ...              5.116996             -4.267767
+MA-95          -6.275150           64.775037  ...              1.089953             -3.493344
+ANC:2      100000.000000       100000.000000  ...        -100000.000000        -100000.000000
+
+[24 rows x 9 columns]
+MIXED MUTS FOR STATE 2: ['LAMB4-chr7-107732769', 'LINGO2-chr9-28064983', 'PIK3CG-chr7-106508397', 'SPEN-chr1-16258997']
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz, instruction set [SSE2|AVX]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 744 rows, 238 columns and 1836 nonzeros
+Model fingerprint: 0x15abb8e0
+Variable types: 0 continuous, 238 integer (238 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [4e-01, 3e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.00s
+Presolved: 744 rows, 238 columns, 1836 nonzeros
+Variable types: 0 continuous, 238 integer (238 binary)
+
+Root relaxation: objective 1.168297e+04, 114 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    11682.968445 11682.9684  0.00%     -    0s
+
+Explored 1 nodes (114 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 11683 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.168296844533e+04, best bound 1.168296844533e+04, gap 0.0000%
+Optimized B --------------------
+       LAMB4-chr7-107732769  LINGO2-chr9-28064983  PIK3CG-chr7-106508397  SPEN-chr1-16258997
+MA-28                   1.0                   1.0                    1.0                 1.0
+MA-29                   1.0                   1.0                    1.0                 0.0
+MA-33                   1.0                   1.0                    1.0                 1.0
+MA-35                   1.0                   0.0                    0.0                -0.0
+MA-37                   1.0                   1.0                    1.0                 0.0
+MA-40                   1.0                   0.0                    1.0                -0.0
+MA-45                   1.0                   1.0                    1.0                 1.0
+MA-85                   1.0                   1.0                    1.0                 1.0
+MA-86                   1.0                   1.0                    1.0                 1.0
+MA-91                   1.0                   1.0                    1.0                 1.0
+C COLUMNS Index(['LAMB4-chr7-107732769', 'LINGO2-chr9-28064983', 'PIK3CG-chr7-106508397',
+       'SPEN-chr1-16258997'],
+      dtype='object')
+       LAMB4-chr7-107732769  LINGO2-chr9-28064983  PIK3CG-chr7-106508397  SPEN-chr1-16258997
+MA-28            819.331822             14.403949              25.823871          580.803903
+MA-29             -2.552943             11.366132              -1.605436           -4.231029
+MA-33              0.000000             -3.970324              -1.383293          504.006347
+MA-35             16.751099              0.362019              -5.057930           -4.388430
+MA-37             -4.558387            113.618921              24.259031           -6.391508
+MA-40            186.183170             -5.557706             164.573499           -4.790185
+MA-45              7.332275           1671.406884              -5.422946         1951.993820
+MA-85             62.679897             -0.692147              57.144190            9.202449
+MA-86             -3.548501            114.561861              24.643153         1410.660454
+MA-91            194.802171              0.792200             751.991496         2988.369830
+MIXED MUTS FOR STATE 1: ['APC-chr5-112175328', 'ATP7B-chr13-52534322', 'CHN1-chr2-175779934', 'FHIT-chr3-60412480', 'LINGO2-chr9-29117698', 'LINGO2-chr9-29178757', 'LRP1B-chr2-141609298', 'MN1-chr22-28193785', 'MYH11-chr16-15917267', 'PTPRD-chr9-10074741']
+----------------- DESCS [(3, {'ALK-chr2-29416591': 0, 'APC-chr5-112164646': 1, 'APC-chr5-112175328': 1, 'ATP7B-chr13-52534322': 1, 'ATR-chr3-142269072': 0, 'CDK4-chr12-58144548': 1, 'CHN1-chr2-175779934': 1, 'CIITA-chr16-11002009': 0, 'EPHB6-chr7-142566125': 0, 'F8-chrX-154157378': 0, 'FHIT-chr3-60412480': 1, 'FUS-chr16-31193877': 0, 'HELZ-chr17-65119071': 0, 'IL21R-chr16-27448836': 1, 'IL7R-chr5-35876645': 0, 'LAMB4-chr7-107732769': 0, 'LINGO2-chr9-28064983': 0, 'LINGO2-chr9-28778389': 0, 'LINGO2-chr9-29117698': 1, 'LINGO2-chr9-29123273': 0, 'LINGO2-chr9-29178757': '?', 'LRP1B-chr2-141609298': '?', 'MN1-chr22-28193785': 1, 'MYH11-chr16-15917267': 1, 'NR3C2-chr4-149357051': 0, 'NR4A3-chr9-102595561': 0, 'NRAS-chr1-115258747': 1, 'PIK3CG-chr7-106508397': 0, 'PRKCB-chr16-24230186': 0, 'PTPRD-chr9-10074741': 1, 'SPEN-chr1-16202934': 0, 'SPEN-chr1-16258997': 0, 'STRN-chr2-37105068': 1, 'TOX-chr8-59851979': 1, 'TP53-chr17-7577548': 1, 'TSHZ3-chr19-31768568': 0})]
+3
+1
+1
+1
+1
+1
+?
+------------------------------ -1e-05
+?
+------------------------------ -1e-05
+1
+1
+1
+/home/user/Desktop/12042023/ForkingScarlet/scarlet/code/optimize_mutation_matrix.py:152: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  C = C.append(d)
+Gurobi Optimizer version 10.0.0 build v10.0.0rc2 (linux64)
+
+CPU model: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz, instruction set [SSE2|AVX]
+Thread count: 4 physical cores, 4 logical processors, using up to 4 threads
+
+Optimize a model with 18540 rows, 5065 columns and 46170 nonzeros
+Model fingerprint: 0x36ddfcae
+Variable types: 0 continuous, 5065 integer (5065 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e-05, 1e+05]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+00]
+Found heuristic solution: objective -0.0000000
+Presolve time: 0.08s
+Presolved: 18540 rows, 5065 columns, 46170 nonzeros
+Variable types: 0 continuous, 5065 integer (5065 binary)
+
+Root relaxation: objective 9.344030e+05, 2249 iterations, 0.06 seconds (0.04 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    934402.96065 934402.961  0.00%     -    0s
+
+Explored 1 nodes (2249 simplex iterations) in 0.20 seconds (0.13 work units)
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 934403 -0 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.344029606465e+05, best bound 9.344029606465e+05, gap 0.0000%
+Optimized B --------------------
+       APC-chr5-112175328  ATP7B-chr13-52534322  ...  MYH11-chr16-15917267  PTPRD-chr9-10074741
+PA-26                 1.0                   1.0  ...                   1.0                 -0.0
+PA-28                 1.0                   1.0  ...                   1.0                 -0.0
+PA-29                 1.0                   1.0  ...                   1.0                 -0.0
+PA-31                 1.0                   1.0  ...                   1.0                  0.0
+PA-32                 1.0                   1.0  ...                   1.0                 -0.0
+PA-38                 1.0                   1.0  ...                   1.0                 -0.0
+PA-39                 1.0                   0.0  ...                   1.0                 -0.0
+PA-40                 1.0                   1.0  ...                   1.0                 -0.0
+PA-41                 1.0                   1.0  ...                   1.0                 -0.0
+PA-42                 1.0                   0.0  ...                   1.0                 -0.0
+PA-43                -0.0                  -0.0  ...                   1.0                 -0.0
+PA-46                 1.0                   1.0  ...                   1.0                 -0.0
+PA-47                 1.0                   1.0  ...                   1.0                 -0.0
+PA-48                 1.0                   1.0  ...                   1.0                  1.0
+PA-49                 0.0                   0.0  ...                   1.0                 -0.0
+PA-51                 1.0                   0.0  ...                   1.0                 -0.0
+PA-52                 1.0                   0.0  ...                   1.0                 -0.0
+PA-53                 1.0                   1.0  ...                   1.0                 -0.0
+PA-55                 1.0                   1.0  ...                   1.0                 -0.0
+PA-57                 1.0                   1.0  ...                   1.0                 -0.0
+PA-58                 1.0                   1.0  ...                   1.0                 -0.0
+PA-59                 1.0                   1.0  ...                   1.0                 -0.0
+PA-61                 1.0                   1.0  ...                   1.0                 -0.0
+PA-62                 1.0                   0.0  ...                   1.0                 -0.0
+PA-63                 1.0                   0.0  ...                   1.0                 -0.0
+PA-64                 1.0                   1.0  ...                   1.0                 -0.0
+PA-65                 0.0                   0.0  ...                   1.0                 -0.0
+PA-68                 1.0                   0.0  ...                   1.0                 -0.0
+PA-70                 1.0                   0.0  ...                   1.0                 -0.0
+PA-71                 0.0                   0.0  ...                   1.0                 -0.0
+PA-73                 0.0                   0.0  ...                   1.0                 -0.0
+PA-74                 1.0                   1.0  ...                   1.0                 -0.0
+PA-77                 0.0                   0.0  ...                   0.0                  0.0
+ANC:3                 1.0                   1.0  ...                   1.0                  1.0
+
+[34 rows x 10 columns]
+C COLUMNS Index(['APC-chr5-112175328', 'ATP7B-chr13-52534322', 'CHN1-chr2-175779934',
+       'FHIT-chr3-60412480', 'LINGO2-chr9-29117698', 'LINGO2-chr9-29178757',
+       'LRP1B-chr2-141609298', 'MN1-chr22-28193785', 'MYH11-chr16-15917267',
+       'PTPRD-chr9-10074741'],
+      dtype='object')
+       APC-chr5-112175328  ATP7B-chr13-52534322  ...  MYH11-chr16-15917267  PTPRD-chr9-10074741
+PA-26           67.219928           2782.506742  ...              0.792200            -4.487919
+PA-28          645.621404             18.869518  ...           1003.320912            -4.205631
+PA-29         1296.662015            115.208827  ...            132.363354            -3.464492
+PA-31            0.000000              8.696549  ...             -2.072438             0.000000
+PA-32            9.409403              4.134082  ...              0.235268            -4.751736
+PA-38          712.173822           1371.472569  ...            199.396418            -3.506217
+PA-39          111.598030             -5.905168  ...            372.781894            -4.081104
+PA-40           18.977052             67.715540  ...           4936.730657            -3.741168
+PA-41          412.769127            128.756663  ...             65.887354            -2.072438
+PA-42        14000.835388             -2.817205  ...             16.097341            -4.758283
+PA-43           -3.951625             -4.551412  ...             64.195751            -3.783619
+PA-46           -0.406667             16.630922  ...             -0.692147            -5.244677
+PA-47           28.093134             12.063997  ...           1103.617398            -1.949447
+PA-48           42.280551             -1.864114  ...           6657.128148            42.282032
+PA-49           -6.089841              0.886510  ...             32.058873            -4.697220
+PA-51           16.774793             -4.990699  ...           1661.007958            -3.935958
+PA-52            7.598751             -3.673552  ...            335.534371            -4.478663
+PA-53          683.813813              0.886510  ...            269.043423            -3.987023
+PA-55           74.495440            139.926231  ...            477.999576            -4.704252
+PA-57          245.540309           2203.186653  ...             78.478541            -5.664871
+PA-58           14.505692             11.046186  ...             28.148784            -5.339992
+PA-59          124.021515           1811.498316  ...              4.104673            -4.035315
+PA-61           -5.307214             57.575468  ...            238.176971            -3.465093
+PA-62           78.151407             -1.939907  ...             22.248414            -5.830767
+PA-63         3234.106481             -1.509528  ...            966.322168            -3.590584
+PA-64           -0.692147            258.470770  ...             65.997812            -5.711328
+PA-65           -3.741168             -4.299064  ...           6800.453416            -3.953306
+PA-68          138.241412             -5.477974  ...             19.336971            -4.255696
+PA-70          640.175532             -4.832662  ...            109.028496            -6.390461
+PA-71           -5.281454             -1.786757  ...            627.539244            -4.900168
+PA-73           -3.403972             -2.976723  ...              4.424850            -5.554402
+PA-74            1.974310              3.175088  ...            231.419497            -4.003414
+PA-77           -3.741168             -4.152474  ...             -3.783619             0.305727
+ANC:3       100000.000000         100000.000000  ...         100000.000000        100000.000000
+
+[34 rows x 10 columns]
+DELETION DETECTED ANC:3 LINGO2-chr9-29178757
+---------------------------------------------------------------- EPSILON
+DELETION DETECTED ANC:3 LRP1B-chr2-141609298
+---------------------------------------------------------------- EPSILON
+All DELETIONS [('ANC:2', 'FHIT-chr3-60412480'), ('ANC:3', 'LINGO2-chr9-29178757'), ('ANC:3', 'LRP1B-chr2-141609298')]
+Index(['MA-25', 'MA-26', 'MD-10', 'MD-11', 'MD-12', 'MD-13', 'MD-3', 'MD-4',
+       'MD-5', 'MD-7',
+       ...
+       'PDD-89', 'PDD-9', 'PDD-90', 'PDD-91', 'PDD-92', 'PDD-93', 'PDD-94',
+       'PDD-95', 'PDD-96', 'ANC:1'],
+      dtype='object', length=121)
+Index(['MA-27', 'MA-30', 'MA-31', 'MA-32', 'MA-34', 'MA-36', 'MA-38', 'MA-39',
+       'MA-41', 'MA-42', 'MA-43', 'MA-44', 'MA-46', 'MA-47', 'MA-48', 'MA-84',
+       'MA-87', 'MA-88', 'MA-89', 'MA-90', 'MA-92', 'MA-93', 'MA-95', 'ANC:2'],
+      dtype='object')
+Index(['MA-28', 'MA-29', 'MA-33', 'MA-35', 'MA-37', 'MA-40', 'MA-45', 'MA-85',
+       'MA-86', 'MA-91'],
+      dtype='object')
+Index(['PA-26', 'PA-28', 'PA-29', 'PA-31', 'PA-32', 'PA-38', 'PA-39', 'PA-40',
+       'PA-41', 'PA-42', 'PA-43', 'PA-46', 'PA-47', 'PA-48', 'PA-49', 'PA-51',
+       'PA-52', 'PA-53', 'PA-55', 'PA-57', 'PA-58', 'PA-59', 'PA-61', 'PA-62',
+       'PA-63', 'PA-64', 'PA-65', 'PA-68', 'PA-70', 'PA-71', 'PA-73', 'PA-74',
+       'PA-77', 'ANC:3'],
+      dtype='object')
+  ---- ('ANC:2', 'FHIT-chr3-60412480')
+  ---- ('ANC:3', 'LINGO2-chr9-29178757')
+  ---- ('ANC:3', 'LRP1B-chr2-141609298')
+  ---- ('ANC:2', 'FHIT-chr3-60412480')
+  ---- ('ANC:3', 'LINGO2-chr9-29178757')
+  ---- ('ANC:3', 'LRP1B-chr2-141609298')
+  ---- ('ANC:2', 'FHIT-chr3-60412480')
+  ---- ('ANC:3', 'LINGO2-chr9-29178757')
+  ---- ('ANC:3', 'LRP1B-chr2-141609298')
+        c  TSHZ3-chr19-31768568_v  TSHZ3-chr19-31768568_t  ...  APC-chr5-112164646_t  ALK-chr2-29416591_v  ALK-chr2-29416591_t
+MA-25   0                     0.0                    66.0  ...                1167.0                  0.0                 65.0
+MA-26   0                     0.0                   149.0  ...                 456.0                  0.0                800.0
+MA-27   3                     5.0                    81.0  ...                  54.0                  0.0                973.0
+MA-28   2                     0.0                    12.0  ...                 188.0                  0.0               1087.0
+MA-29   2                     0.0                   213.0  ...                  80.0                  0.0               1092.0
+...    ..                     ...                     ...  ...                   ...                  ...                  ...
+PDD-92  0                     0.0                    49.0  ...                  46.0                  0.0                650.0
+PDD-93  0                     0.0                    16.0  ...                  24.0                  0.0                188.0
+PDD-94  0                     0.0                   202.0  ...                  35.0                  0.0                 41.0
+PDD-95  0                     0.0                    30.0  ...                  58.0                  0.0                111.0
+PDD-96  0                     0.0                   130.0  ...                  33.0                  0.0                760.0
+
+[186 rows x 73 columns]
+       ALK-chr2-29416591 APC-chr5-112164646 APC-chr5-112175328  ... TOX-chr8-59851979 TP53-chr17-7577548 TSHZ3-chr19-31768568
+MA-25                  0                  0                  0  ...                 0                  0                    0
+MA-26                  0                  0                  0  ...                 0                  0                    0
+MA-27                  0                  1                  1  ...                 1                  1                    1
+MA-28                  0                  1                  1  ...                 1                  1                    0
+MA-29                  0                  1                  1  ...                 1                  1                    0
+...                  ...                ...                ...  ...               ...                ...                  ...
+PDD-92                 0                  0                  0  ...                 0                  0                    0
+PDD-93                 0                  0                  0  ...                 0                  0                    0
+PDD-94                 0                  0                  0  ...                 0                  0                    0
+PDD-95                 0                  0                  0  ...                 0                  0                    0
+PDD-96                 0                  0                  0  ...                 0                  0                    0
+
+[186 rows x 36 columns]
+Outputting edgelist to data/CRC2/CRC2output12042023ALL.edgelist
+Outputting DOT file to data/CRC2/CRC2output12042023ALL.dot
+dot - graphviz version 2.40.1 (20161225.0304)
+Using render: cairo:cairo
+Using device: pdf:cairo:cairo
+libdir = "/usr/lib/x86_64-linux-gnu/graphviz"
+Activated plugin library: libgvplugin_dot_layout.so.6
+Using layout: dot:dot_layout
+The plugin configuration file:
+        /usr/lib/x86_64-linux-gnu/graphviz/config6a
+                was successfully loaded.
+    render      :  cairo dot dot_json fig gd json json0 map mp pic pov ps svg tk vml vrml xdot xdot_json
+    layout      :  circo dot fdp neato nop nop1 nop2 osage patchwork sfdp twopi
+    textlayout  :  textlayout
+    device      :  bmp canon cmap cmapx cmapx_np dot dot_json eps fig gd gd2 gif gtk gv ico imap imap_np ismap jpe jpeg jpg json json0 mp pdf pic plain plain-ext png pov ps ps2 svg svgz tif tiff tk vml vmlz vrml wbmp x11 xdot xdot1.2 xdot1.4 xdot_json xlib
+    loadimage   :  (lib) bmp eps gd gd2 gif ico jpe jpeg jpg png ps svg xbm
+pack info:
+  mode   undefined
+  size   0
+  flags  0
+  margin 8
+pack info:
+  mode   node
+  size   0
+  flags  0
+fontname: "helvetica" resolved to: (ps:pango  Nimbus Sans L,  REGULAR) (PangoCairoFcFont) "Nimbus Sans L, Regular" /usr/share/fonts/X11/Type1/n019003l.pfb
+network simplex:  226 nodes 225 edges maxiter=2147483647 balance=1
+network simplex: 226 nodes 225 edges 0 iter 0.00 sec
+Maxrank = 60, minrank = 0
+mincross: pass 0 iter 0 trying 0 cur_cross 0 best_cross 0
+mincross g: 0 crossings, 0.00 secs.
+network simplex:  901 nodes 1290 edges maxiter=2147483647 balance=2
+network simplex: 100 200 300 
+network simplex: 901 nodes 1290 edges 320 iter 0.01 sec
+routesplines: 225 edges, 1125 boxes 0.00 sec
+Using render: cairo:cairo
+Using device: pdf:cairo:cairo
+Warning: transparent is not a known color.
+Warning: 0 is not a known color.
+gvRenderJobs g: 0.05 secs.
+(base) user@saqib-HP-Pro-3340-MT:~/Desktop/12042023/ForkingScarlet/scarlet$ git add .
+(base) user@saqib-HP-Pro-3340-MT:~/Desktop/12042023/ForkingScarlet/scarlet$ git commit -m "run code for CRC2 data with plotting style ALL"
+[BUETPC 4294a9b] run code for CRC2 data with plotting style ALL
+ 8 files changed, 1249 insertions(+)
+ create mode 100644 data/CRC2/CRC2output12042023ALL.B
+ create mode 100644 data/CRC2/CRC2output12042023ALL.B_ancestor
+ create mode 100644 data/CRC2/CRC2output12042023ALL.LL
+ create mode 100644 data/CRC2/CRC2output12042023ALL.T
+ create mode 100644 data/CRC2/CRC2output12042023ALL.dot
+ create mode 100644 data/CRC2/CRC2output12042023ALL.edgelist
+ create mode 100644 data/CRC2/CRC2output12042023ALL.pdf
+(base) user@saqib-HP-Pro-3340-MT:~/Desktop/12042023/ForkingScarlet/scarlet$ 
